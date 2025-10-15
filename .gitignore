@@ -41,4 +41,4 @@ temp/
 *.bak
 
 # Added by user
-*dfx_runtime.txt
+dfx_runtime.txt
