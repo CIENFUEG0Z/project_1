@@ -1,0 +1,41 @@
+# ===========================
+# Vivado / Xilinx .gitignore
+# ===========================
+
+# Build and project files
+*.jou
+*.log
+*.str
+*.zip
+*.rpt
+*.html
+*.xml
+*.xpe
+*.ltx
+*.dcp
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.xpr
+*.sdk/
+*.xsa
+*.xise
+*.data/
+*.gen/
+*.webtalk/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temp folders
+tmp/
+temp/
+*.tmp
+
+# Vivado autosave
+*.backup.*
+*.bkp
+*.bak
