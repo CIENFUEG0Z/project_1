@@ -39,3 +39,6 @@ temp/
 *.backup.*
 *.bkp
 *.bak
+
+# Added by user
+*dfx_runtime.txt
