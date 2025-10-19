@@ -17,7 +17,7 @@ module seq4(input logic clk,
     assign D[1] = Q[0] ;
     assign D[0] = ~Q[3] ;
 
-    always_ff@(posedge clk)//rst y en síncrono
+    always_ff@(posedge clk or posedge rst)//rst asíncrono, toma tambien el rst como condicion
         if (rst) Q <= 4'b0; //con rst = 1 -> registra 0000
         else
             if (en) Q <= D; //con en = 1  -> avanza al siguiente estado
